@@ -1,0 +1,211 @@
+/* Navbar Styles */
+.nav-link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    border-bottom: 2px solid yellow;
+  }
+  
+  nav {
+    border-bottom: 3px solid yellow;
+  }
+  
+  /* General Link Styles */
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  .demo {
+    text-align: justify;
+  }
+  
+  /* Highlight Class */
+  .myColor {
+    color: yellow;
+  }
+  
+  /* Body Styles */
+  body {
+    background-color: black;
+    color: white;
+    margin: 0;
+  }
+  
+  /* List Styles */
+  li {
+    list-style: none;
+  }
+  
+  /* Bounce Animation */
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(10px);
+    }
+  }
+  
+  /* Line Design */
+  .line {
+    width: 150px;
+    margin: auto;
+    height: 3px;
+    background: yellow;
+    position: relative;
+  }
+  
+  .line span {
+    width: 20px;
+    height: 20px;
+    border: 3px solid yellow;
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    background: black;
+  }
+  
+  /* Button Styles */
+  .btn {
+    height: auto;
+    width: 180px;
+    background-image: linear-gradient(to right, #90bc0d, #eded56);
+    color: black;
+    border: 2px solid white;
+    border-radius: 50px;
+  }
+  
+  .btn:hover {
+    color: white;
+    border: 2px solid yellow;
+    background-image: linear-gradient(to right, #c0dc6e, #575732);
+  }
+  
+  /* Icon Styles */
+  i {
+    font-size: 25px;
+    color: yellow;
+  }
+  
+  /* Card Styles */
+  .card {
+    border-radius: 10px;
+    background-color: rgb(33, 37, 41);
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+  }
+  
+  .card:hover {
+    border: 2px solid yellow;
+  }
+  
+  /* Parallax Background */
+  .parallax {
+    background-image: url('./images/background_three.jpg');
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    z-index: -1;
+  }
+  
+  /* Form Styles */
+  .myForm {
+    background-color: rgb(33, 37, 41);
+    border: none;
+    border-bottom: 2px solid yellow;
+    color: white;
+  }
+  
+  .myForm:focus {
+    border-bottom: 2px solid yellow;
+  }
+  
+  input::placeholder,
+  textarea::placeholder {
+    color: white;
+  }
+  
+  /* Progress Bar */
+  .progress-bar {
+    background-image: linear-gradient(to right, #90bc0d, #eded56);
+  }
+  
+  /* Slideshow Styles */
+  .slideshow-container {
+    position: relative;
+    background: rgb(33, 37, 41);
+  }
+  
+  .mySlides {
+    display: none;
+    padding: 80px;
+    text-align: center;
+  }
+  
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    user-select: none;
+  }
+  
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+  }
+  
+  .next {
+    right: 0;
+  }
+  
+  /* Dots */
+  .dot-container {
+    text-align: center;
+    padding: 20px;
+    background: rgb(33, 37, 41);
+  }
+  
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Quote and Author Styling */
+  q {
+    font-style: italic;
+  }
+  
+  .author {
+    color: cornflowerblue;
+  }
+  
+  /* Clearfix */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
