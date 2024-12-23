@@ -90,7 +90,11 @@ i {
   text-align: center;
   transition: border 0.3s ease-in-out;
 }
+ul, li {list-style-type: none;}
 
+.myUnordered:hover {
+  background-color: #717171;
+}
 .card:hover {
   border: 2px solid yellow;
 }
@@ -251,3 +255,26 @@ q {
       margin-top: 3%;
   }
 }
+
+
+/* Smartphones */
+@media (max-width: 576px) {
+  .animated {
+      animation: none !important;
+  }
+}
+
+/* Tablets and small laptops */
+@media (max-width: 768px) {
+  .animated {
+      animation: none !important;
+  }
+}
+
+/* Larger tablets and smaller desktops */
+@media (max-width: 992px) {
+  .animated {
+      animation: none !important;
+  }
+}
+
