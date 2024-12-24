@@ -1,32 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
+<!-- Sitemap for Faisal Mahmood -->
 <url>
   <loc>https://faisal-mahmood123.github.io/web-development.github.io/</loc>
   <lastmod>2024-12-15T23:29:55+00:00</lastmod>
   <priority>1.00</priority>
+  <image:image>
+    <image:loc>https://faisal-mahmood123.github.io/web-development.github.io/images/faisal-111.jpg</image:loc>
+    <image:title>Faisal Mahmood HR Manager and Web Developer</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://faisal-mahmood123.github.io/web-development.github.io/images/mine-pic.jpg</image:loc>
+    <image:title>Faisal Mahmood HR Manager and Web Developer</image:title>
+  </image:image>
 </url>
 <url>
   <loc>https://faisal-mahmood123.github.io/web-development.github.io/index.html</loc>
   <lastmod>2024-12-15T23:29:55+00:00</lastmod>
   <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://faisal-mahmood123.github.io/web-development.github.io/images/services.jpg</image:loc>
+    <image:title>Faisal Mahmood HR Manager and Web Developer</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://faisal-mahmood123.github.io/web-development.github.io/images/sitImage.jpg</image:loc>
+    <image:title>Faisal Mahmood HR Manager and Web Developer</image:title>
+  </image:image>
 </url>
 <url>
   <loc>https://faisal-mahmood123.github.io/web-development.github.io/admission.html</loc>
   <lastmod>2024-12-15T23:29:55+00:00</lastmod>
   <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://faisal-mahmood123.github.io/web-development.github.io/images/webportfolio.jpg</image:loc>
+    <image:title>Faisal Mahmood HR Manager and Web Developer</image:title>
+  </image:image>
 </url>
 <url>
   <loc>https://faisal-mahmood123.github.io/web-development.github.io/mission.html</loc>
   <lastmod>2024-12-15T23:29:55+00:00</lastmod>
   <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://faisal-mahmood123.github.io/web-development.github.io/images/onlinecourse.jpg</image:loc>
+    <image:title>Faisal Mahmood HR Manager and Web Developer</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://faisal-mahmood123.github.io/web-development.github.io/images/edited.jpg</image:loc>
+    <image:title>Faisal Mahmood HR Manager and Web Developer</image:title>
+  </image:image>
 </url>
-
-
 </urlset>
